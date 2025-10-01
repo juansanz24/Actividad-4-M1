@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datos de la reserva</title>
+    <link rel="stylesheet" href="css/styless.css">
+</head>
+
+<body>
+    <main> 
+    <h2>Datos del formulario</h2>
+    <p><strong>Nombre:</strong> <span id="mostrarnombre"></span></p>
+    <p><strong>Correo:</strong> <span id="mostrarcorreo"></span></p>
+    <p><strong>Edad:</strong> <span id="mostraredad"></span></p>
+    <p><strong>Teléfono:</strong> <span id="mostrartelefono"></span></p>
+    <p><strong>Fecha de agenda:</strong> <span id="mostrarfecha"></span></p>
+    <p><strong>Habitación:</strong> <span id="mostrarhabitacion"></span></p>
+
+
+    <script>
+        document.getElementById('mostrarnombre').textContent = localStorage.getItem('nombre');
+        document.getElementById('mostrarcorreo').textContent = localStorage.getItem('correo');
+        document.getElementById('mostraredad').textContent = localStorage.getItem('edad');
+        document.getElementById('mostrartelefono').textContent = localStorage.getItem('telefono');
+        document.getElementById('mostrarfecha').textContent = localStorage.getItem('fecha');
+        document.getElementById('mostrarhabitacion').textContent = localStorage.getItem('habitacion');
+    </script>
+    </main>
+</body>
+</html>

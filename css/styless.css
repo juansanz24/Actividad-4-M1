@@ -1,0 +1,168 @@
+body {
+    background-color: rgb(143, 216, 216);
+    margin: 5%;
+}
+
+main {
+    background-color: rgb(255, 255, 255); 
+    padding: 20px;
+    border-radius: 20px;     
+}
+
+
+
+
+
+
+header {
+    display: flex;
+    align-items: center;   
+    gap: 20px;             
+}
+
+header img {
+    width: 120px;  
+    height: auto;   
+    margin: 0;      
+}
+
+.texto-header h1 {
+    color: #2244aa; 
+    margin: 0;          
+    line-height: 1.2;   
+}
+
+.texto-header p {
+    color: #666;     
+    margin: 0;         
+    line-height: 1.4;   
+}
+
+
+
+
+.info-hotel {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-left: 5px solid #4a4aff;
+    border-radius: 8px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  justify-items: center; 
+}
+
+.card {
+  background: #fff;
+  border: 3px solid #6a0dad;
+  border-radius: 10px;
+  padding: 15px;
+  width: 400px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.card p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+
+
+
+
+.galeria {
+    margin: 30px 0;
+}
+
+.galeria .imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.galeria img {
+    width: calc(33.33% - 10px);
+    border-radius: 8px;
+}
+
+
+
+
+footer {
+  background-color: rgb(255, 255, 255); 
+  padding: 20px;
+  text-align: center; 
+}
+
+
+
+
+
+
+
+.container{
+    background-color: rgb(101, 25, 207);   
+}
+
+.logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.container ul {
+     list-style: none;     
+      display: flex;          
+      gap: 20px;  
+}
+
+.container ul li a {
+      color: rgb(255, 255, 255);            
+      font-weight: bold;   
+      text-decoration: none;
+     display: inline-block;   
+}
+
+form {
+    background-color: #f5f2f2; 
+    padding: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form label, 
+form input, 
+form select, 
+form textarea {      
+  margin: 10px 0;      
+}
+
+
